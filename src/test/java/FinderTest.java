@@ -11,4 +11,28 @@ public class FinderTest {
 		Assert.assertEquals(10, testFinder.findMax(cleanArray));
 	}
 
+	@Test (expected = java.lang.NullPointerException.class)
+	public void maxTestNullArray() {
+		testFinder.findMax(nullArray);
+	}
+	
+	@Test (expected = java.lang.IndexOutOfBoundsException.class)
+	public void maxTestEmptyArray() {
+		testFinder.findMax(emptyArray);
+	}
+	@Test
+	public void minTestCleanArray() {
+		Assert.assertEquals(1, testFinder.findMin(cleanArray));
+	}
+
+	@Test (expected = java.lang.NullPointerException.class)
+	public void minTestNullArray() {
+		testFinder.findMin(nullArray);
+	}
+	
+	@Test (expected = java.lang.IndexOutOfBoundsException.class)
+	public void minTestEmptyArray() {
+		testFinder.findMin(emptyArray);
+	}
+
 }
