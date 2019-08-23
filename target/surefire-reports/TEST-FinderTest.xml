@@ -58,9 +58,9 @@
     <property name="sun.cpu.endian" value="little"/>
   </properties>
   <testcase classname="FinderTest" name="minTestNullArray" time="0.003"/>
-  <testcase classname="FinderTest" name="maxTestNullArray" time="0"/>
+  <testcase classname="FinderTest" name="maxTestNullArray" time="0.001"/>
   <testcase classname="FinderTest" name="minTestEmptyArray" time="0"/>
   <testcase classname="FinderTest" name="minTestCleanArray" time="0"/>
-  <testcase classname="FinderTest" name="maxTestEmptyArray" time="0.001"/>
+  <testcase classname="FinderTest" name="maxTestEmptyArray" time="0"/>
   <testcase classname="FinderTest" name="maxTestCleanArray" time="0"/>
 </testsuite>
